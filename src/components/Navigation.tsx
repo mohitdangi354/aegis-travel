@@ -45,6 +45,12 @@ const Navigation = () => {
               <Phone className="mr-2 h-4 w-4" />
               Emergency: 112
             </Button>
+            <Button variant="secondary" size="sm" asChild>
+              <a href="/tourist-login">Tourist Login</a>
+            </Button>
+            <Button variant="outline" size="sm" asChild>
+              <a href="/admin-login">Admin Login</a>
+            </Button>
             <Button variant="hero" size="sm">
               Request Demo
             </Button>
@@ -80,6 +86,12 @@ const Navigation = () => {
                 <Button variant="outline" size="sm">
                   <Phone className="mr-2 h-4 w-4" />
                   Emergency: 112
+                </Button>
+                <Button variant="secondary" size="sm" asChild>
+                  <a href="/tourist-login">Tourist Login</a>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="/admin-login">Admin Login</a>
                 </Button>
                 <Button variant="hero" size="sm">
                   Request Demo
